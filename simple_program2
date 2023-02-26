@@ -1,0 +1,13 @@
+# String_Python
+
+Input is A5B6C7
+Output should be AAAAABBBBBBCCCCCCC
+
+str = input('Enter the value: ')
+output = ''
+i=0
+while i<len(str):
+    output = output+str[i]
+    output = output*int(str[i+1])
+    i+=2
+    print(output)
