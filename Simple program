@@ -1,0 +1,8 @@
+#Input is A5
+#Output should be AAAAA
+
+str = input('Enter the value: ')
+output = ''
+output = output+str[0]
+output = output*int(str[1])
+print(output)
