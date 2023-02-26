@@ -1,0 +1,16 @@
+#Extract the Alpha and Number from given string
+
+#Input is A5B6C8D9F7F8
+#Output Should be ABCDFF568978
+
+value = 'A5B6C8D9F7F8'
+output1 = ''
+output2 = ''
+
+for letter in value:
+    if letter.isalpha():
+        output1 = output1+letter
+    else:
+        output2 = output2+letter
+output = output1 + output2
+print(output)
