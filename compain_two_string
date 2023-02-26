@@ -7,9 +7,9 @@ comb = ''
 i,j = 0,0
 while i<len(name1) or j<len(name2):
     if i<len(name1):
-        comb = comb+name[i]
+        comb = comb+name1[i]
         i+=1
     if j<len(name2):
-        comb = comb+name[j]
+        comb = comb+name2[j]
         j+=1
 print(comb)
