@@ -12,4 +12,4 @@ while i<len(name1) or j<len(name2):
     if j<len(name2):
         comb = comb+name[j]
         j+=1
-print(comp)
+print(comb)
